@@ -1,0 +1,26 @@
+#app-container {
+    display:flex;
+    gap: 2rem;
+    align-items: flex-start;
+    padding: 80px;
+}
+
+canvas {
+    background: #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+#controls{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    width: 300 px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
